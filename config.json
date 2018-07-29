@@ -1,0 +1,22 @@
+{
+    // The name of the server
+    "serverName": "Slack Redirection Service",
+
+    // the routes which will handle the stuff
+    "createRoute": "/create",
+    "readRoute": "/redirect",
+
+    // How the redirects will be done? 
+    // Available options: "client-side", "server-side"
+    "redirectMethod": "client-side",
+
+    // true uses the URL shortener instead of complete links
+    "shortenUrl": false,
+
+    // HTML / templates used for this service
+    "templates": {
+        "redirect": "./templates/redirect.html",
+        "4xx": "./templates/4xx.html",
+        "5xx": "./templates/5xx.html"
+    }
+}

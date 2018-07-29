@@ -1,0 +1,39 @@
+{
+  "name": "outbound",
+  "version": "0.1.0",
+  "description": "Create, track, and analyse outbound traffic.",
+  "main": "index.js",
+  "engines": {
+    "npm": "5.7.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshu-ros/outbound.git"
+  },
+  "keywords": [
+    "outbound",
+    "tracking",
+    "analysis",
+    "logging"
+  ],
+  "author": "Anshu Kumari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anshu-ros/outbound/issues"
+  },
+  "homepage": "https://github.com/Anshu-ros/outbound#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.19",
+    "mongoose": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

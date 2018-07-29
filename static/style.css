@@ -1,0 +1,77 @@
+body {
+	font-family: 'Jura';
+	text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;    	
+    background: ;
+}
+.link-creator {
+	
+}
+h1 h2 {
+	text-shadow: 2px 2px;
+	color: white;
+}
+.center {
+	position: relative;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+	padding: 30px;
+	top: 120px;
+	background: white;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+::placeholder {
+    color: gray;
+	opacity: 1;   /* Firefox */
+	font-style: italic;
+	font-weight: bold;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: gray;
+	font-style: italic;
+	font-weight: bold;
+ }
+ ::-ms-input-placeholder { /* Microsoft Edge */
+	color: gray;
+	font-style: italic;
+	font-weight: bold;
+ }
+ .button {
+    background-color: #67C8FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+footer {
+	position: absolute;
+	width: 100vw;
+	bottom: 20px;
+	text-align: center;
+	font-family: 'Lato', san-serif;
+}
+.glassy {
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0.8;
+	color: white;
+	padding: 4px;
+	border-radius: 2px;
+}

@@ -1,0 +1,12 @@
+{
+    "serverName": "Slack Redirection Service",
+
+
+    "redirectMethod": "client-side",
+
+    "shortenUrl": false,
+
+    "templates": {
+    },
+   "port": 3000
+}
